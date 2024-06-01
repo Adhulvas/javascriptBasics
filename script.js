@@ -51,3 +51,22 @@ else {
     console.log('Entered number is Negative');
 }
 
+//6) Write a script that takes a user's age and checks if they are a child (0-12), teenager (13-19), adult (20-59), or senior (60 and above)
+
+let agegroup = 23
+
+if ((agegroup >= 0) && (agegroup <= 12)) {
+    console.log('You are a child');
+}
+else if ( (agegroup >= 13) && (agegroup <= 19) ) {
+    console.log('You are a teenager');
+}
+else if ( (agegroup >= 20) && (agegroup <= 59) ) {
+    console.log('You are an adult');
+}
+else if (agegroup >= 60) {
+    console.log('You are a senior citizen');
+}
+else {
+    console.log('Invalid entry');
+}
