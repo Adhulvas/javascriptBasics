@@ -70,3 +70,12 @@ else if (agegroup >= 60) {
 else {
     console.log('Invalid entry');
 }
+
+//7) find the square of each number in an array=[1,3,9,12,15,18,21] using loop
+
+let array=[1,3,9,12,15,18,21]
+
+for (let i=0; i<=6; i++) {
+    const result=array[i]**2
+    console.log(array[i], '^', 2, '=', result);
+}
