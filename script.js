@@ -86,7 +86,7 @@ let sumnum=0
 
 for (let i=1; i<=20; i++) {
     if (i%2!==0) {
-    sumnum=sumnum+i
+    sumnum+=i
     }
 }
 console.log('sum of odd numbers is', sumnum);
