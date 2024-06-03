@@ -79,3 +79,14 @@ for (let i=0; i<=6; i++) {
     const result=array[i]**2
     console.log(array[i], '^', 2, '=', result);
 }
+
+//8) Write a program to find the sum of all the odd numbers for a given limit (if you choose limit as 10 then need to find the sum of all odd numbers in between 1 and 10 )
+
+let sumnum=0
+
+for (let i=1; i<=20; i++) {
+    if (i%2!==0) {
+    sumnum=sumnum+i
+    }
+}
+console.log('sum of odd numbers is', sumnum);
